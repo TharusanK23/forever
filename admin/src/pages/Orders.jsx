@@ -98,7 +98,7 @@ const Orders = ({token}) => {
               <p className='text-sm sm:text-[15px]'>{currencySymbol}{order.amount}</p>
               <select onChange={(e) => updateStatus(e, order._id)} className='p-2 font-semibold' value={order.status}>
                 <option value="Order Placed">Order Placed</option>
-                <option value="Confirmed">Order Placed</option>
+                <option value="Confirmed">Confirmed</option>
                 <option value="Packing">Packing</option>
                 <option value="Shipped">Shipped</option>
                 <option value="Out for delivery">Out for delivery</option>
